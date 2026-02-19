@@ -1,0 +1,22 @@
+{
+  "name": "freelang-v4-stdlib",
+  "version": "1.0.0",
+  "description": "FreeLang v4 Standard Library — 59개 함수 (String/Functional/Regex/JSON/Database + 기존 모듈 통합)",
+  "scripts": {
+    "test": "jest --forceExit",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testMatch": ["**/tests/**/*.test.ts"],
+    "testTimeout": 10000
+  }
+}
